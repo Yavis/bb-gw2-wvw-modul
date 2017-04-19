@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+    <category name="gw2.wvw">
+        <item name="gw2.wvw.html.title"><![CDATA[WvW]]></item>
+        <item name="gw2.wvw.page.title"><![CDATA[Guild Wars 2 - Welt gegen Welt Übersicht]]></item>
+        <item name="gw2.wvw.border.all"><![CDATA[Gesamt]]></item>
+        <item name="gw2.wvw.border.red"><![CDATA[Rotes Grenzland]]></item>
+        <item name="gw2.wvw.border.green"><![CDATA[Grünes Grenzland]]></item>
+        <item name="gw2.wvw.border.blue"><![CDATA[Blaues Grenzland]]></item>
+        <item name="gw2.wvw.border.center"><![CDATA[Ewige Schlachtfelder]]></item>
+        <item name="gw2.wvw.points.all"><![CDATA[Gesamt:]]></item>
+    </category>
+</language>

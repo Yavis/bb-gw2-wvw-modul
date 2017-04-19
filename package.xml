@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.asguardian.gw2.wvw" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
+<packageinformation>
+    <packagename><![CDATA[GW2 WvW]]></packagename>
+    <packagename language="de"><![CDATA[Guild Wars 2 WvW-Übersicht]]></packagename>
+    <packagename language="de-informal"><![CDATA[Guild Wars 2 WvW-Übersichtsseite]]></packagename>
+    <packagedescription><![CDATA[This Package shows a GW2-WvW-Overview Page in WBB.]]></packagedescription>
+    <packagedescription language="de"><![CDATA[Dieses Packet fügt die GW2 WvW-Übersicht ins WBB ein.]]></packagedescription>
+    <packagedescription language="de-informal"><![CDATA[Dieses Packet fügt die GW2 WvW-Übersicht ins WBB ein.]]></packagedescription>
+    <isunique>1</isunique>
+    <version>0.5.4 Beta</version>
+    <date>2013-10-23</date>
+    <standalone>0</standalone>
+</packageinformation>
+ 
+<authorinformation>
+    <author><![CDATA[yavis]]></author>
+    <authorURL><![CDATA[[url]www.asguardian.de[/url]]]></authorURL>
+</authorinformation>
+ 
+<requiredpackages>
+    <requiredpackage minversion="1.1.9">com.woltlab.wcf</requiredpackage>
+    <requiredpackage minversion="1.0.0" file="requirements/de.asguardian.gw2.api.tar.gz">de.asguardian.gw2.api</requiredpackage>
+</requiredpackages>
+ 
+	<instructions type="install">
+        <languages languagecode="de">languages/de.xml</languages>
+        <languages languagecode="de-informal">languages/de-informal.xml</languages>
+        <languages languagecode="en">languages/en.xml</languages>
+        <files>files.tar</files>
+        <templates>templates.tar</templates>
+        <sql>install.sql</sql>
+	</instructions>
+ 
+</package>
